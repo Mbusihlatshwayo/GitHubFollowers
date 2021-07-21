@@ -104,6 +104,15 @@
 			path = Support;
 			sourceTree = "<group>";
 		};
+		9F0CC3F626A7DECE00DB7C47 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				9F0CC3F226A7D8BC00DB7C47 /* GHFollower.swift */,
+				9F0CC3F426A7DA2400DB7C47 /* GHUser.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
 		9F1BF2EA26A676BC004DEE69 = {
 			isa = PBXGroup;
 			children = (
@@ -123,12 +132,11 @@
 		9F1BF2F526A676BC004DEE69 /* GitHubFollowers */ = {
 			isa = PBXGroup;
 			children = (
+				9F0CC3F626A7DECE00DB7C47 /* Models */,
 				9F0CC3F126A7D32B00DB7C47 /* Support */,
 				9F0CC3EE26A7D29A00DB7C47 /* CustomViews */,
 				9F0CC3ED26A7D28E00DB7C47 /* ViewControllers */,
 				9F0CC3EC26A7D28500DB7C47 /* Extensions */,
-				9F0CC3F226A7D8BC00DB7C47 /* GHFollower.swift */,
-				9F0CC3F426A7DA2400DB7C47 /* GHUser.swift */,
 			);
 			path = GitHubFollowers;
 			sourceTree = "<group>";
